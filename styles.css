@@ -1,0 +1,52 @@
+html {
+    background-color: rgb(93, 93, 98);
+}
+
+.head {
+font-size: 30px;
+font-family: 'Kanit', sans-serif;
+color: aquamarine;
+text-shadow: 2px 2px 0px  rgb(0, 0, 0);
+margin-left: 10px;
+}
+
+
+.start-btn {
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+    color:aquamarine; 
+    font-size: 100px;
+}
+
+.dice {
+    font-size: 50px;
+    
+    text-align: center;
+    display: inline-block;
+    color: aquamarine;
+    font-family: 'Recursive', sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.winner {
+    font-size: 50px;
+    
+    text-align: center;
+    display: inline-block;
+    color: aquamarine;
+    font-family: 'Recursive', sans-serif;
+
+}
