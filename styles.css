@@ -21,9 +21,7 @@ body {
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
 
-.start-btn:hover {
-    background-color: #9e9c9c; /* Change the background color on hover */
-}
+
 
 .container {
     display: flex;
