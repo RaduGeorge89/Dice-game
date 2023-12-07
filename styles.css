@@ -25,9 +25,10 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    
 }
 
 .dice {
@@ -36,6 +37,7 @@ body {
 }
 
 .dice img {
+   
     width: 150px;
     height: 150px;
 }
