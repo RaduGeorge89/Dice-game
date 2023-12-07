@@ -20,13 +20,13 @@ let player1Score = 0;
                 document.querySelector(".winner").innerHTML = "Draw!";
             }
 
-            // Update and display scores
+          
             document.getElementById("player1Score").textContent = player1Score;
             document.getElementById("player2Score").textContent = player2Score;
         }
 
-        // Add event listener to the button
+        
         document.getElementById("rollButton").addEventListener("click", rollDice);
 
-        // Initial roll when the page loads
+    
         rollDice();
